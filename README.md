@@ -24,7 +24,7 @@ The sound related logics are broken down into three parts:
 * Constantly Check Game State/Parameter
 * Mechanims for Trigger FMOD Event
 
-![Screen Shot 2020-01-03 at 3.48.41 PM](/Users/wzq/Desktop/Screen Shot 2020-01-03 at 3.48.41 PM.png)
+![](Images/Level_Blueprint.png)
 
 
 
@@ -38,7 +38,7 @@ A float variable called *Modification* is created in level BP, it is the corresp
 * InputAction *Partmod* - Keyboard Input of '2' : Sound events for Partly Modification Mode 
 * InputAction *Fullmod*  - Keyboard Input of '3' : Sound events for Full Modification Mode
 
-![Screen Shot 2020-01-03 at 3.47.34 PM](/Users/wzq/Desktop/Screen Shot 2020-01-03 at 3.47.34 PM.png)
+![](Images/Set_Parameter.png)
 
 
 
@@ -46,7 +46,7 @@ A float variable called *Modification* is created in level BP, it is the corresp
 
 Ambience Sound and Propo are FMOD AudioComponent that are attached to the sound BPs. They are both affected by the paramter called Modification in the FMOD event. **The input for the 'Name' parameter in the Set Parameter function must match the one that is used in FMOD.**
 
-![Screen Shot 2020-01-03 at 3.47.49 PM](/Users/wzq/Desktop/Screen Shot 2020-01-03 at 3.47.49 PM.png)
+![](Images/Check_Parameter.png)
 
 
 
@@ -54,4 +54,4 @@ Ambience Sound and Propo are FMOD AudioComponent that are attached to the sound 
 
 The *Dialogue_SS_Trigger* is the object that trigger both sound event Propo and The snapshot when the main camera enter its trigger zone. The Dialogue_SS is a snapshot that fade down the world and ambient sounds, and turn up the supposed Dialogue/Voiceover to allow the user hear it clearly, it has the function of auto-ducking and provide loudness hiercharchy for the game.
 
-![Screen Shot 2020-01-03 at 3.48.16 PM](/Users/wzq/Desktop/Screen Shot 2020-01-03 at 3.48.16 PM.png)
+![](Images/Collision_Trigger.png)
