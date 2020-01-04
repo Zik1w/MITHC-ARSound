@@ -1,0 +1,4 @@
+/Users/wzq/Documents/Unreal Projects/MITHC_Sound/Plugins/FMODStudio/Source/FMODStudioEditor/FMODStudioEditor.Build.cs
+/Users/wzq/Documents/Unreal Projects/MITHC_Sound/Plugins/FMODStudio/Source/FMODStudio/FMODStudio.Build.cs
+/Users/wzq/Documents/Unreal Projects/MITHC_Sound/Intermediate/Source/MITHC_Sound.Build.cs
+/Users/wzq/Documents/Unreal Projects/MITHC_Sound/Intermediate/Source/MITHC_Sound.Target.cs
